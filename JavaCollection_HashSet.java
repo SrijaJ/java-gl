@@ -9,8 +9,8 @@ public class JavaCollection_HashSet {
 	public static void main(String[] args) {
 
 		HashSet<String> hset=new HashSet<String>();
-		hset.add("Shivansh");
-		hset.add("Agrawal");
+		hset.add("Srija");
+		hset.add("Jami");
 		hset.add("Shahpura");
 		hset.add("Jaipur");
 		hset.add("Rajasthan");
@@ -20,7 +20,7 @@ public class JavaCollection_HashSet {
 		
 		System.out.println("HashSet is empty: "+hset.isEmpty());
 		
-		hset.remove("Shivansh");
+		hset.remove("Srija");
 		System.out.println("Hashset after removing 'Shivansh'"+hset);
 		
 		System.out.println("Size of hashset is : "+hset.size());
@@ -35,7 +35,7 @@ public class JavaCollection_HashSet {
 		tset.add("coach");
 		
 		System.out.println(tset);
-		System.out.println("Does tset contains 'Shivansh' in it? "+tset.contains("Shivansh"));
+		System.out.println("Does tset contains 'Shivansh' in it? "+tset.contains("Srija"));
 		System.out.println("First element of tset : "+tset.first());
 		System.out.println("Last element od tset : "+tset.last());
 		System.out.println("Element removed from start: "+tset.pollFirst());
